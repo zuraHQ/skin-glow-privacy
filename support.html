@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support — Shen</title>
+<style>
+  :root { --accent: #FCA9E6; --ink: #1c1c1e; --muted: #6b6b70; --line: #ececec; }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: var(--ink); background: #fff; line-height: 1.65; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+  header.site { border-bottom: 1px solid var(--line); padding: 18px 0; }
+  header.site .wrap { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+  .brand { font-weight: 700; font-size: 20px; letter-spacing: -0.01em; text-decoration: none; color: var(--ink); }
+  .brand .dot { color: var(--accent); }
+  nav.top a { color: var(--ink); text-decoration: none; font-size: 15px; margin-left: 20px; }
+  nav.top a:hover { color: var(--accent); }
+  main { padding: 48px 0 16px; }
+  h1 { font-size: 36px; letter-spacing: -0.02em; margin: 0 0 8px; }
+  .sub { color: var(--muted); font-size: 17px; margin: 0 0 32px; }
+  h2 { font-size: 22px; letter-spacing: -0.01em; margin: 40px 0 12px; }
+  p, li { font-size: 16px; }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  a { color: #c45ba6; }
+  .contact { background: #fff5fc; border: 1px solid var(--accent); border-radius: 16px; padding: 22px 24px; margin: 8px 0 12px; }
+  .contact a { font-weight: 600; }
+  .faq { border-top: 1px solid var(--line); padding-top: 8px; }
+  .q { font-weight: 600; font-size: 17px; margin: 26px 0 6px; }
+  .note { background: #fafafa; border: 1px solid var(--line); border-radius: 14px; padding: 16px 20px; font-size: 15px; margin: 28px 0; color: var(--ink); }
+  footer.site { border-top: 1px solid var(--line); margin-top: 56px; padding: 28px 0; }
+  footer.site .wrap { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; font-size: 14px; color: var(--muted); }
+  footer.site a { color: var(--muted); text-decoration: none; margin-left: 16px; }
+  footer.site a:hover { color: var(--accent); }
+  @media (max-width: 600px) { h1 { font-size: 29px; } nav.top a { margin-left: 14px; } }
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="index.html">Shen<span class="dot">.</span></a>
+    <nav class="top">
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <h1>Support</h1>
+  <p class="sub">We're here to help you get the most out of Shen.</p>
+
+  <div class="contact">
+    Email us at <a href="mailto:makaradze98.s@gmail.com">makaradze98.s@gmail.com</a>. We typically respond within <strong>2–3 business days</strong>. To help us assist you faster, please include the email you used to sign in and a short description of the issue.
+  </div>
+
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq">
+
+    <p class="q">How does the skin scan work?</p>
+    <p>You take a selfie in the App. The photo is analyzed by AI (OpenAI's GPT-4o vision) to estimate visible skin attributes such as acne, redness, oiliness, dark spots, hydration, texture, and pores, along with an overall skin score. Shen then builds a personalized morning and night routine with product recommendations, and tracks your progress over time. For best results, use clear, well-lit, front-facing photos.</p>
+
+    <p class="q">How do I manage or cancel my subscription?</p>
+    <p>Shen subscriptions are billed through Apple In-App Purchase, so they are managed in your Apple ID settings, not inside the App. On your iPhone, open <strong>Settings → [your name] → Subscriptions</strong>, tap <strong>Shen</strong>, and choose to change your plan or cancel. Cancelling turns off auto-renewal; you keep access until the end of your current paid period. Subscriptions auto-renew unless turned off at least 24 hours before the period ends.</p>
+
+    <p class="q">I'm not seeing my subscription after reinstalling. How do I restore it?</p>
+    <p>Use <strong>Restore Purchases</strong> in the App's settings. As long as you're signed in to the same Apple ID used for the original purchase, your active subscription will be restored.</p>
+
+    <p class="q">How do I delete my account and data?</p>
+    <p>In the App, go to <strong>Settings → Delete Account</strong>. This removes your account and associated data, including your photos. You can also email <a href="mailto:makaradze98.s@gmail.com">makaradze98.s@gmail.com</a> to request deletion.</p>
+
+    <p class="q">Is Shen a medical app?</p>
+    <p>No. Shen is a cosmetic, informational tool. Its skin insights are not medical advice, not a diagnosis, and not a substitute for a dermatologist or other qualified professional. Please consult a professional for any medical concern.</p>
+
+    <p class="q">What about my privacy?</p>
+    <p>Your selfie is sent to OpenAI solely to generate your analysis, and your data is stored in encrypted Convex storage. We do not sell your data and we use no third-party advertising or tracking SDKs. For full details, see our <a href="privacy.html">Privacy Policy</a>.</p>
+
+  </div>
+
+  <div class="note">
+    Looking for the legal details? Read our <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms of Use</a>.
+  </div>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>© 2026 Shen</span>
+    <span>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="support.html">Support</a>
+    </span>
+  </div>
+</footer>
+</body>
+</html>

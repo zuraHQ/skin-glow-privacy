@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Shen</title>
+<style>
+  :root { --accent: #FCA9E6; --ink: #1c1c1e; --muted: #6b6b70; --line: #ececec; }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: var(--ink); background: #fff; line-height: 1.65; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+  header.site { border-bottom: 1px solid var(--line); padding: 18px 0; }
+  header.site .wrap { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+  .brand { font-weight: 700; font-size: 20px; letter-spacing: -0.01em; text-decoration: none; color: var(--ink); }
+  .brand .dot { color: var(--accent); }
+  nav.top a { color: var(--ink); text-decoration: none; font-size: 15px; margin-left: 20px; }
+  nav.top a:hover { color: var(--accent); }
+  main { padding: 48px 0 16px; }
+  h1 { font-size: 36px; letter-spacing: -0.02em; margin: 0 0 8px; }
+  .eff { color: var(--muted); font-size: 15px; margin: 0 0 36px; }
+  h2 { font-size: 22px; letter-spacing: -0.01em; margin: 40px 0 12px; }
+  h3 { font-size: 17px; margin: 24px 0 8px; }
+  p, li { font-size: 16px; }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  a { color: #c45ba6; }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 15px; }
+  th, td { text-align: left; padding: 10px 12px; border: 1px solid var(--line); vertical-align: top; }
+  th { background: #fafafa; font-weight: 600; }
+  .note { background: #fff5fc; border: 1px solid var(--accent); border-radius: 14px; padding: 18px 20px; font-size: 15px; margin: 28px 0; }
+  footer.site { border-top: 1px solid var(--line); margin-top: 56px; padding: 28px 0; }
+  footer.site .wrap { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; font-size: 14px; color: var(--muted); }
+  footer.site a { color: var(--muted); text-decoration: none; margin-left: 16px; }
+  footer.site a:hover { color: var(--accent); }
+  @media (max-width: 600px) { h1 { font-size: 29px; } nav.top a { margin-left: 14px; } table, th, td { font-size: 14px; } }
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="index.html">Shen<span class="dot">.</span></a>
+    <nav class="top">
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <h1>Privacy Policy</h1>
+  <p class="eff">Effective date: June 15, 2026</p>
+
+  <p>This Privacy Policy explains how the <strong>Shen</strong> mobile application (bundle identifier <code>com.shenapp.www</code>, the "App") collects, uses, shares, and protects your information. By using Shen, you agree to the practices described here. If you do not agree, please do not use the App.</p>
+
+  <div class="note">
+    <strong>Shen is a cosmetic, non-medical tool.</strong> The skin insights it provides are informational only. They are not medical advice, not a diagnosis, and not a substitute for a dermatologist or other qualified professional. Please consult a professional for any medical concern.
+  </div>
+
+  <h2>1. Information We Collect</h2>
+  <p>We collect only the information needed to operate the App and provide its features:</p>
+  <ul>
+    <li><strong>Selfie photos.</strong> When you take or upload a selfie, we collect the image so it can be analyzed to estimate visible skin attributes (such as acne, redness, oiliness, dark spots, hydration, texture, and pores) and an overall skin score.</li>
+    <li><strong>Account information.</strong> Your email address and name, provided through sign-in (Sign in with Apple or Google).</li>
+    <li><strong>Onboarding answers.</strong> Information you give us about your skin, including skin type, concerns, experience level, and ingredient preferences.</li>
+    <li><strong>Routine and usage data.</strong> The routines we generate for you, products recommended, and your progress over time.</li>
+    <li><strong>Subscription status.</strong> Whether you have an active subscription and which plan, so we can unlock the right features.</li>
+  </ul>
+
+  <h2>2. How We Use Your Information</h2>
+  <ul>
+    <li>To analyze your selfie and generate your skin attributes and skin score.</li>
+    <li>To build and update your personalized morning and night routines and product recommendations.</li>
+    <li>To track your skin progress over time so you can see changes.</li>
+    <li>To create and secure your account and authenticate you.</li>
+    <li>To manage your subscription and provide access to paid features.</li>
+    <li>To respond to support requests and improve the App's functionality.</li>
+  </ul>
+
+  <h2>3. How Your Photo Is Handled</h2>
+  <p>When you submit a selfie, the image is sent to <strong>OpenAI</strong> solely to generate your skin analysis using its GPT-4o vision model. Your photos and associated data are stored in <strong>Convex</strong> encrypted file storage and database, which serves as Shen's backend. Photos are used only to provide the analysis and progress features described in this policy and are not used for advertising.</p>
+
+  <h2>4. Third-Party Service Providers</h2>
+  <p>We rely on a small set of trusted processors to run Shen. Each receives only the data necessary for its function:</p>
+  <table>
+    <thead><tr><th>Provider</th><th>Purpose</th><th>What it receives</th></tr></thead>
+    <tbody>
+      <tr><td>OpenAI</td><td>AI skin analysis (GPT-4o vision)</td><td>Your selfie photo, sent solely to generate your analysis</td></tr>
+      <tr><td>Clerk</td><td>Authentication (Sign in with Apple &amp; Google)</td><td>Your name, email, and sign-in identifiers</td></tr>
+      <tr><td>Convex</td><td>Backend database and encrypted file storage</td><td>Your photos, onboarding answers, routines, and usage data</td></tr>
+      <tr><td>RevenueCat</td><td>Subscription management</td><td>Subscription status and purchase identifiers</td></tr>
+      <tr><td>Apple</td><td>App Store in-app purchases</td><td>Purchase and billing information handled by Apple</td></tr>
+    </tbody>
+  </table>
+
+  <h2>5. We Do Not Sell Your Data</h2>
+  <p>We do <strong>not</strong> sell your personal data. We do <strong>not</strong> use third-party advertising networks, and Shen contains <strong>no</strong> third-party advertising or tracking SDKs. Your selfies and personal information are never used to target you with ads.</p>
+
+  <h2>6. Data Retention and Deletion</h2>
+  <p>We retain your information for as long as your account is active and as needed to provide the App's features. You can delete your account and associated data at any time:</p>
+  <ul>
+    <li><strong>In the App:</strong> go to <strong>Settings → Delete Account</strong>. This removes your account and associated data, including your photos.</li>
+    <li><strong>By email:</strong> contact us at <a href="mailto:makaradze98.s@gmail.com">makaradze98.s@gmail.com</a> to request deletion.</li>
+  </ul>
+  <p>After deletion, we remove your data from our active systems; residual copies in routine backups are purged on a rolling basis.</p>
+
+  <h2>7. Your Rights</h2>
+  <p>Depending on where you live, you may have the right to access, correct, export, or delete your personal data, and to object to or restrict certain processing. You can exercise these rights using the in-app deletion option or by emailing us at <a href="mailto:makaradze98.s@gmail.com">makaradze98.s@gmail.com</a>. We will respond within a reasonable time.</p>
+
+  <h2>8. Children's Privacy</h2>
+  <p>Shen is not intended for children under 13, or under the minimum age of digital consent in your region. We do not knowingly collect personal data from children under that age. If you believe a child has provided us information, please contact us so we can delete it.</p>
+
+  <h2>9. Data Security</h2>
+  <p>We use reputable infrastructure providers and encrypted storage (via Convex) to protect your data. While no method of transmission or storage is completely secure, we take reasonable measures designed to protect your information.</p>
+
+  <h2>10. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. When we make material changes, we will update the effective date above and, where appropriate, notify you in the App.</p>
+
+  <h2>11. Contact Us</h2>
+  <p>If you have questions about this Privacy Policy or your data, email us at <a href="mailto:makaradze98.s@gmail.com">makaradze98.s@gmail.com</a>.</p>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>© 2026 Shen</span>
+    <span>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="support.html">Support</a>
+    </span>
+  </div>
+</footer>
+</body>
+</html>
